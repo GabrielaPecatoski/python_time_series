@@ -6,3 +6,26 @@
 #R: São strings colocadas logo apos uma função, classe ou módulo e são usadas para documenta-las. São delimitadas por aspas triplas e diferem dos comentários, pois docstrings podem ser acessadas em tempo de execução, tornando-as úteis para gerar documentações automáticas e facilitar a compreensão do código.
 #para que serve?
 #R: Serve para documentar uma função, classe ou módulo dentro de python, tornando-as úteis para gerar documentações automáticas e facilitar a compreensão do código.
+
+
+# adicione um cabeçalho padrão neste arquivo e resolva os exercícios
+
+def e_par(n: int) -> bool:
+    """...."""
+    # TODO: retorne se n é par
+    ...
+
+import re
+
+def limpa_texto(s: str) -> str:
+    """Deixa minúsculo e remove pontuação comum."""
+    # TODO: converta s para minúsculo e remova pontuações como ,.;:!?'"()-_
+    ...
+
+def total_por_vendedor(vendas):
+    """
+    vendas: lista de tuplas (nome, valor).
+    Retorna: dict {nome: soma_valores}
+    """
+    # TODO: inicialize um dict e vá somando
+    ...
